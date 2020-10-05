@@ -1,0 +1,85 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #27314a;
+    text-align: center;
+    font-family: "Arvo", cursive;
+}
+
+.title
+{
+    font-size: 5rem;
+    color: #DBEDF3;
+    text-shadow: 3px 1px #DA0463;
+    font-family: "Arvo", cursive;
+}
+
+.drum
+{
+    height: 9.2rem;
+    width: 9.2rem;
+    background: white;
+    border: 10px solid #404B69;
+    border-radius: 10px;
+    font-size: 5rem;
+    color: #DA0463;
+    font-family: "Arvo", cursive;
+    display: inline-block;
+    margin: 10px;
+    line-height: 2;
+    font-weight:  900;
+    text-shadow: 3px 0 #DBEDF3;
+    outline-width: 0;
+}
+
+.pressed
+{
+    box-shadow: 0px 4px 3px 0  #DBEDF3;
+    opacity: 0.5;
+}
+
+.red
+{
+    color: red;
+}
+
+.drumkit
+{
+    margin: 10% auto;
+}
+.footext
+{
+    color: white;
+    font-family: sans-serif;
+    /* font-size: 1rem; */
+}
+
+.w
+{
+    background: url(images/tom1.png);
+}
+.a
+{
+    background: url(images/tom2.png);
+}
+.s
+{
+    background: url(images/tom3.png);
+}
+.d
+{
+    background: url(images/tom4.png);
+}
+.j
+{
+    background: url(images/snare.png);
+}
+.k
+{
+    background: url(images/kick.png);
+}
+.l
+{
+    background: url(images/crash.png);
+}
